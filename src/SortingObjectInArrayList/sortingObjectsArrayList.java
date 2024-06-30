@@ -35,10 +35,6 @@ public class sortingObjectsArrayList {
     }
 
 
-
-
-
-
    // we need to make function to create ArrayyList of Persons
     public static void addingObjectsToArrayList(){
        Person p=new Person("Aly"); //p repesents the one object in the heap
@@ -54,17 +50,15 @@ public class sortingObjectsArrayList {
                 }
         );
 
-
     }
     public static void main(String[]args){
 //       addingObjectsToArrayList();
         ArrayList<Person> personList=new ArrayList<Person>();
         personList.add(new Person("Omar"));
-        personList.add(new Person("Olaa"));
+        personList.add(new Person("Ola"));
         personList.add(new Person("Potter"));
         personList.add(new Person("Alaa"));
 //        The idea each Person in the list will compare itself with next person
-
         Collections.sort(personList);
         personList.forEach(
                 (ele)-> System.out.println(ele.name)

@@ -23,7 +23,7 @@ public class SetAndMapAndHashMap {
         alaaMap.put("Ali", 232);
         alaaMap.put("Mohamed", 9039);
         alaaMap.put("Mostafa", 0101);
-        alaaMap.put("yarar", 23);
+        alaaMap.put("yara", 23);
         alaaMap.put("Mohamed", 0101);
 
         /*
@@ -52,10 +52,10 @@ public class SetAndMapAndHashMap {
     /*
      * Set contains of some Entries [Single Entry ]
      *{
-     * {} ,  ==> This is single Entry
-     * {} ,   ==> This is single Entry
-     * {} ,   ==> This is the single Entry
-     * {} ,
+     * {String , String } ,  ==> This is single Entry
+     * {String , String } ,   ==> This is single Entry
+     * {String , String } ,   ==> This is the single Entry
+     * {} ,   === This is the single Entry
      *
      * }
      *
