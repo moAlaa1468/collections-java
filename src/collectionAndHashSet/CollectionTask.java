@@ -7,6 +7,8 @@ import java.util.Iterator;
 public class CollectionTask {
     /*
      * How to remove duplicated values from Arraylist
+     *
+     * الجزء الاهم ان ال hashSet لا تسمح بالتكرار
      * */
     public static ArrayList<Integer> removeDuplicatedValues(ArrayList<Integer> numbers) {
         HashSet<Integer> hashSet = new HashSet<>();
