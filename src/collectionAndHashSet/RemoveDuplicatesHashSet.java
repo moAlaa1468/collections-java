@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class CollectionTask {
+public class RemoveDuplicatesHashSet {
     /*
      * How to remove duplicated values from Arraylist
      *
