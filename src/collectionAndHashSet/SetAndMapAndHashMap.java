@@ -52,7 +52,7 @@ public class SetAndMapAndHashMap {
     /*
      * Set contains of some Entries [Single Entry ]
      *{
-     *  {} ,  ==> This is single Entry
+     * {} ,  ==> This is single Entry
      * {} ,   ==> This is single Entry
      * {} ,   ==> This is the single Entry
      * {} ,
